@@ -12,6 +12,8 @@ https://github.com/takagotch/snipcart
 https://www.shopify.jp/lite
 
 ###### square
+https://github.com/takagotch/square
+
 
 
 ```
