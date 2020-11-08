@@ -5,7 +5,8 @@ https://stripe.com/partners/snipcart
 
 https://github.com/stripe
 
-###### snicart
+###### snipcart
+https://github.com/takagotch/snipcart
 
 ###### shopify lite
 
