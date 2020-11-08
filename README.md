@@ -9,6 +9,7 @@ https://github.com/stripe
 https://github.com/takagotch/snipcart
 
 ###### shopify lite
+https://www.shopify.jp/lite
 
 ###### square
 
