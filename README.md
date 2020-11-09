@@ -23,7 +23,8 @@ stripe
 paypal
 square
 braintree
-mobile
+Mollie.com
+
 autherize.net
 ```
 
