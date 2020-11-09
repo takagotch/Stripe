@@ -1,5 +1,8 @@
 ### Stripe
 ---
+https://dashboard.stripe.com/settings/user
+
+
 https://stripe.com/partners/snipcart
 
 
