@@ -17,6 +17,14 @@ https://github.com/takagotch/square
 ######
 
 ```
+connect
+
+stripe
+paypal
+square
+braintree
+mobile
+autherize.net
 ```
 
 
