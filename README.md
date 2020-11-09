@@ -24,8 +24,7 @@ paypal
 square
 braintree
 Mollie.com
-
-autherize.net
+Authorize.Net
 ```
 
 
