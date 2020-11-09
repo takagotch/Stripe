@@ -1,4 +1,4 @@
-### stripe
+### Stripe
 ---
 https://stripe.com/partners/snipcart
 
