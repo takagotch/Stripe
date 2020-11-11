@@ -41,7 +41,38 @@ Authorize.Net
 
 
 ```
-gem 
+// https://stripe.com/docs/payments/accept-a-payment?integration=elements
+//
+gem install stripe
+vi Gemfile
++ gem 'stripe'
+vi server.rb
++ Stripe.api_key = 'xxxxxxxxxxxxx'
++ intent = Stripe::PaymentIntent.create({
++   amount: 1099,
++   currency" 'jpy',
++   metadata: {integration_check: 'accept_a_payment'},
++ })
+vi main.rb
++ get '/secret' do
++   intent = # PaymentIntent
++   {client_secret: intent.client_secret}.to_json
++ end
+vi views/checkout.erb
++ <input id="card-name" type="text">
++ <!-- placeholder for Elements -->
++ <div id="card-element"></div>
++ <button id="card-button" data-secret="<%= @intent.client_secret %>">Submit Payment</button>
+vi main.rb
++ get '' do
++   @intent = # PaymentIntent
++   erb :checkout
++ end
+vi checkout.html
++ <script src="https://js.stripe.com/v3/"></stript>
++ <button i"checkout-button">Checkout</button>
+
+
 ```
 
 
