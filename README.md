@@ -17,7 +17,16 @@ https://www.shopify.jp/lite
 ###### square
 https://github.com/takagotch/square
 
+###### Stripe Docs
+https://stripe.com/docs/payments/accept-a-payment?integration=elements
+
 ######
+
+
+
+
+
+
 
 ```
 connect
@@ -32,6 +41,7 @@ Authorize.Net
 
 
 ```
+gem 
 ```
 
 
