@@ -12,6 +12,8 @@ https://github.com/stripe
 https://github.com/takagotch/snipcart
 
 ###### shopify lite
+https://github.com/takagotch/Shopify/blob/master/README.md
+
 https://www.shopify.jp/lite
 
 ###### square
